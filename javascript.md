@@ -15,7 +15,7 @@ const foo = 'bar';
 ### Data types:
 ```javascript
 const name = 'John';
-let age = 30;
+const age = 30;
 const rating = 7.5;
 const isBlue = true;
 const x = null;
@@ -28,13 +28,68 @@ const fruits = ['banana', 'apple', 'watermelon'];
 const person = {
     firstName: 'John',
     lastName: 'Doe',
-    age: 30,
+    age: 22,
     hobbies : ['music', 'movies', 'reading'],
     address: {
-        street: '50 main st',
-        city: 'Boston',
-        state: 'MA'
+        street: 'Hermes da Fonseca',
+        city: 'Natal',
+        state: 'RN'
     }
 }
 ```
 
+### Control flow statements:
+```javascript
+if (x > 3 || x < 3) {
+    console.log("The value of 'x' is not 3!");
+}
+
+if (x > 2 && x < 4) {
+    console.log("The value of 'x' is 3!");
+}
+
+if (color === 'green') {
+    console.log('Color is green!');
+} else if (color === 'yellow') {
+    console.log('Color is yellow!');
+} else {
+    console.log('Color was not detected!');
+}
+
+for (let i = 0; i <= 10; i++) {
+    console.log(i);
+}
+
+for (let todo of todos) {
+    console.log(todo)
+}
+
+let x = 0;
+while (x <= 10) {
+    console.log(`The value of 'x' is ${x}.`);
+    x++;
+}
+
+switch (x) {
+    case 1:
+        console.log('The value of "x" is 1!');
+        break;
+    case 2:
+        console.log('The value of "x" is 2!');
+        break;
+    default:
+        console.log('The value of "x" was not detected!');
+        break;
+}
+```
+
+### Functions
+```javascript
+function sum(x, y) {
+    return x + y;
+}
+
+const sum = (x, y) => {
+    return x + y;
+}
+```
