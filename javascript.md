@@ -39,6 +39,7 @@ const person = {
 ```
 
 ### Control flow statements:
+#### if
 ```javascript
 if (x > 3 || x < 3) {
     console.log("The value of 'x' is not 3!");
@@ -61,6 +62,7 @@ if (color === 'green') {
 }
 ```
 
+#### for
 ```javascript
 for (let i = 0; i <= 10; i++) {
     console.log(i);
@@ -73,6 +75,7 @@ for (let todo of todos) {
 }
 ```
 
+#### while
 ```javascript
 let x = 0;
 while (x <= 10) {
@@ -81,6 +84,7 @@ while (x <= 10) {
 }
 ```
 
+#### switch
 ```javascript
 switch (x) {
     case 1:
@@ -102,6 +106,7 @@ function sum(x, y) {
 }
 ```
 
+#### arrow function
 ```javascript
 const sum = (x, y) => {
     return x + y;
