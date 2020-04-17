@@ -112,3 +112,22 @@ const sum = (x, y) => {
     return x + y;
 }
 ```
+
+### Classes
+```javascript
+class Person {
+    constructor(firstName, lastName) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+    }
+
+    getFullName() {
+        return `${this.firstName} ${this.lastName}`;
+    }
+}
+
+const person1 = new Person('Jhon', 'Doe');
+
+console.log(person1.getFullName());
+```
+
