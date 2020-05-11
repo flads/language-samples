@@ -2,7 +2,7 @@
 
 ### Hello World:
 ```javascript
-console.log('Hello, World!');
+console.log('Hello World');
 ```
 
 ### Variables and constants:
