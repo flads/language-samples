@@ -23,21 +23,6 @@ const y = undefined;
 const fruits = ['banana', 'apple', 'watermelon'];
 ```
 
-### Objects:
-```javascript
-const person = {
-    firstName: 'John',
-    lastName: 'Doe',
-    age: 22,
-    hobbies : ['music', 'movies', 'reading'],
-    address: {
-        street: 'Hermes da Fonseca',
-        city: 'Natal',
-        state: 'RN'
-    }
-}
-```
-
 ### Control flow statements:
 #### if
 ```javascript
