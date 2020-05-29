@@ -69,14 +69,14 @@ if color === 'green' {
 #### for
 ```go
 for i := 0; i <= 10; i++ {
-
+    ...
 }
 ```
 
 #### while
 ```go
 for i <= 10 {
-
+    ...
 }
 ```
 Yes, this is not a mistake. The while in Go is just that.
